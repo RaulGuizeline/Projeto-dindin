@@ -163,6 +163,10 @@ nav div{
     transition: 500ms ease;
 }
 
+.navegation{
+    text-transform: uppercase;
+}
+
 main{
     padding: 81px 82px 81px 82px;
 }
