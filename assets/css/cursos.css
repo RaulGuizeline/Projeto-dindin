@@ -158,6 +158,11 @@ nav div{
     font-weight: 700;
 }
 
+.navegation a:hover {
+    color: #FF4081; 
+    transition: 500ms ease;
+}
+
 main{
     padding: 81px 82px 81px 82px;
 }
@@ -273,6 +278,11 @@ footer {
     color: #fff;
     line-height: 1.4;
 
+}
+
+.final a:hover {
+    color: #FF4081; 
+    transition: 500ms ease;
 }
 
 
