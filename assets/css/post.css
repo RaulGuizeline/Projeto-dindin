@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+body{
+    font-family: ubuntu;
+}
+
+header {
+    display: flex;
+    background-color: #2E948A;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+
+
+
+
+
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+
+
+
+
+
+
+
+}
+
+ul li a {
+    color: #FDFDFD;
+    text-decoration: none;
+
+
+
+}
+
+ul li a:hover {
+    color: #FF4081;
+    transition: 300ms;
+}
+
+header .logo img {
+    align-items: center;
+
+
+}
+
+.tittle {
+    text-align: center;
+
+
+
+}
+
+.tittle h1 {
+    color: #FF4081;
+    font-family: Ubuntu;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 50px;
+
+
+}
+
+.tittle span {
+    color: #9D9D9D;
+    font-family: ubuntu;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+
+
+}
+
+.image-top {
+    align-items: center;
+
+
+}
+
+
+.prgth-1 img {
+    margin-bottom: 40px;
+}
+
+
+.main .prgth-1 {
+    /* max-width: 1040px; */
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.main .prgth-1 p {
+    margin: auto;
+    max-width: 1040px;
+    text-align: center;
+    text-align: justify;
+}
+
+.main .prgth-1 h3 {
+
+    text-align: justify;
+    color: #419488;
+    margin-left: 225px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+
+
+}
+
+.main-bot h1 {
+    color: #FF4081;
+    font-family: ubuntu;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 150px;
+    text-align: center;
+    padding: 50px;
+}
+
+.main-bot {
+
+
+    background-color: #F6F6F6;
+    padding-bottom: 50px;
+}
+
+.art-f {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 70px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.art-f h5 {
+    color: #FF4081;
+    text-align: center;
+    margin: 30px;
+    font-family: ubuntu;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.art-f p {
+    color: #000000;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-family: ubuntu;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.art-f button {
+
+    width: 180px;
+    height: 50px;
+    background: #FF4081;
+    border-radius: 50px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+.art-f a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: ubuntu;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #419488;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+footer ul {
+    flex-direction: column;
+    gap: 1px;
+}
+
+footer ul a {
+    font-family: ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer ul a:hover {
+    color: #FF4081;
+    transition: 300ms;
+}
+
+
+
+
+
+.btf a {
+    color: #fff;
+    text-decoration: none;
+    font-family: ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+
+
+}
+
+.btf2 a {
+    color: #fff;
+    text-decoration: none;
+    font-family: ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.btf button {
+
+    text-align: center;
+    padding: 14px 61px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 62px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+
+}
+
+.btf2 button {
+    margin: 5px;
+    text-align: center;
+    padding: 15px 43px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 62px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.bt1-2 a:hover {
+    color: #FF4081;
+    transition: 300ms;
+
+}
+
+aside h2{
+    color: #FF4081;
+}
+
+aside .formbts{
+    display: grid;
+    width: 493px; 
+    padding: 32px;
+    margin: 15px;
+    gap: 15px;
+    
+
+}
+
+.formbts input{
+    border-radius: 7px;
+    border:1px solid #686868;
+    padding-left: 22px;
+}
+
+.formbts textarea{
+    border-radius: 7px;
+    border:1px solid #686868;
+    padding-left: 22px;
+    padding-top:15px ;
+}
+
+.formulary h2{
+    margin-left: 46px;
+    padding-top:105px ;
+
+}
+
+.formulary button{
+    margin-left: 46px;
+    color: #fff;
+    background-color: #FF4081;
+    width: 108px;
+    height: 32px;
+    border-radius: 50px;
+    border-color: transparent;
+    gap: 15px;
+
+
+}
+
+aside{
+    float: left;
+}
+
+.logoform {
+    margin-right: 163px;
+    margin-top: 82px;
+   float: right;
+   
+ 
+}
+
+footer{
+    margin-top: 742px ;
+    clear: both;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    body, .art-f,{
+       
+        width: 100%;
+        
+        
+    }
+
+    .logoform{
+        width: 100%;
+       margin: 20px;
+    }
+
+
+    .prgth-1 img{
+        width: 300px;
+        
+    }
+
+    .prgth-1{
+        width: 300px;
+    }
+
+    header{
+        width: 300px;
+    }
+
+    .tittle{
+        width: 300px;
+    }
+
+    .main-bot {
+        width: 300px;
+    }
+
+    .art-f {
+        flex-direction: column;
+    }
+
+}
