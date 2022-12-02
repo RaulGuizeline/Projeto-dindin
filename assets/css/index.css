@@ -29,6 +29,16 @@
     margin-bottom: 38px;
 }
 
+#depoimentos .container h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 78px;
+    color: #009688;
+    font-weight: bold;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
 #destaque .container div a {
     border: 2px solid #FF4081;
     border-radius: 62px;
